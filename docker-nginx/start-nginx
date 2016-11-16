@@ -1,0 +1,2 @@
+#!/bin/bash
+exec scl enable rh-nginx18 'nginx'
