@@ -1,0 +1,117 @@
+# Jenkins files
+*version.txt
+
+# dev config file
+nick.py
+*john*.py
+
+# Db passwords
+dbconf*.py
+secure*.json
+secure*.csv
+
+# SASS
+#*.map
+#*.css
+#!/libs/*.css
+.sass-cache
+
+# removed until git hook implemented
+#*.css
+#!/libs/*.css
+
+# Python bytecode:
+*.py[cod]
+.DS_Store
+
+# Django
+assets
+
+# C extensions
+*.so
+
+# Packaging files:
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Editor temp files:
+*.swp
+*~
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+
+# Installer logs
+
+# Logs:
+*.log
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.coveragerc
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# PyCharmd
+.idea
+
+# Komodo
+.metadata
+.#*
+
+# Windows files
+Thumbs.db
+
+# CVS
+CVS
+.cvsignore
+
+
+#java specific
+*.class
+
+# vim
+.ropeproject
+
+# dummy pdf generator
+pdf_content.html
+
+# bgroup directories
+pyframe/bgroups/*
+
+# pdf template
+pdf_content.html
+
+# node_modules
+pyframe/node_modules
+
+# gulp
+# pyframe/gulpfile.js
+# pyframe/package.json
+
+# local personal settings
+pyframe/pyframe/settings/joseph.py
